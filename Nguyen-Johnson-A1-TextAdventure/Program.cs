@@ -180,6 +180,7 @@ class Program
                 else if (amountDonated > Gold)
                 {
                     Console.WriteLine($"You don't have {amountDonated} gold in your pockets");
+                    Console.WriteLine("Nice try scame artist, the lady has casted a curse upon you, now you have the Curse of Demise");
                 }
             }
             else if (amountDonated == 0)
